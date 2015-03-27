@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit
+struct Customer {
+    var taste : CGFloat = 0.0
+    
+}
+
+

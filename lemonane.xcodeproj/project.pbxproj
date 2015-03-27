@@ -13,6 +13,8 @@
 		0196D7181AC1CA0B00AA865D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0196D7171AC1CA0B00AA865D /* Images.xcassets */; };
 		0196D71B1AC1CA0B00AA865D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0196D7191AC1CA0B00AA865D /* LaunchScreen.xib */; };
 		0196D7271AC1CA0B00AA865D /* lemonaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196D7261AC1CA0B00AA865D /* lemonaneTests.swift */; };
+		0196D7311AC46CF800AA865D /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0196D7301AC46CF800AA865D /* Customers.swift */; };
+		01DAF2871AC5D379008798CA /* backup in Resources */ = {isa = PBXBuildFile; fileRef = 01DAF2861AC5D379008798CA /* backup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0196D7201AC1CA0B00AA865D /* lemonaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lemonaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0196D7251AC1CA0B00AA865D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0196D7261AC1CA0B00AA865D /* lemonaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lemonaneTests.swift; sourceTree = "<group>"; };
+		0196D7301AC46CF800AA865D /* Customers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		01DAF2861AC5D379008798CA /* backup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = backup; path = ../../../Documents/backup; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				0196D7101AC1CA0B00AA865D /* AppDelegate.swift */,
 				0196D7121AC1CA0B00AA865D /* ViewController.swift */,
+				01DAF2861AC5D379008798CA /* backup */,
 				0196D7141AC1CA0B00AA865D /* Main.storyboard */,
+				0196D7301AC46CF800AA865D /* Customers.swift */,
 				0196D7171AC1CA0B00AA865D /* Images.xcassets */,
 				0196D7191AC1CA0B00AA865D /* LaunchScreen.xib */,
 				0196D70E1AC1CA0B00AA865D /* Supporting Files */,
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DAF2871AC5D379008798CA /* backup in Resources */,
 				0196D7161AC1CA0B00AA865D /* Main.storyboard in Resources */,
 				0196D71B1AC1CA0B00AA865D /* LaunchScreen.xib in Resources */,
 				0196D7181AC1CA0B00AA865D /* Images.xcassets in Resources */,
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0196D7131AC1CA0B00AA865D /* ViewController.swift in Sources */,
+				0196D7311AC46CF800AA865D /* Customers.swift in Sources */,
 				0196D7111AC1CA0B00AA865D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				0196D72C1AC1CA0B00AA865D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0196D72D1AC1CA0B00AA865D /* Build configuration list for PBXNativeTarget "lemonaneTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				0196D72F1AC1CA0B00AA865D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
